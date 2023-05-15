@@ -1,0 +1,8 @@
+apiVersion: latest
+enabled: true
+name: gradient-ai/txt2img
+image: joshuapaperspace/txt2img:latest
+port: 8501
+resources:
+  replicas: 1
+  instanceType: P6000
